@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  testchart1:
+  - annotations:
+      charts.openshift.io/archs: x86_64
+      charts.openshift.io/name: RedHat Test
+      charts.openshift.io/provider: RedHat
+      charts.openshift.io/supportURL: https://github.com/ansvu/testchart1
+    apiVersion: v2
+    appVersion: 1-42
+    created: "2024-01-11T17:53:36.522092909-06:00"
+    description: A Helm chart for Kubernetes
+    digest: 3fd3f87c7558e2b23d9469de1d97cce2959e6033d44c6a57eaa445d516a06614
+    icon: https://www.example.com/chart-icon.png
+    kubeVersion: '>=1.20.0'
+    name: testchart1
+    type: application
+    urls:
+    - https://ansvu.github.io/testchart1/testchart1-0.1.3.tgz
+    version: 0.1.3
+generated: "2024-01-11T17:53:36.520654105-06:00"
